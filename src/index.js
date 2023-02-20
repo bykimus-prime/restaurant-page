@@ -1,1 +1,3 @@
-console.log('up and running');
+import makeWebsite from './website';
+
+makeWebsite();
