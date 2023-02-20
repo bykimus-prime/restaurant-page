@@ -1,0 +1,23 @@
+{
+  "name": "top-restaurant-page",
+  "version": "1.0.0",
+  "description": "This project aims to create a sipmle restaurant homepage. All contents of the site are generated with JavaScript. Styling is done of course with a separate CSS file. The major goal of this project is to make use of NPM and Webpack to bundle files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bykimus-prime/TOP-restaurant-page.git"
+  },
+  "author": "Alexander Rodzyanko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bykimus-prime/TOP-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/bykimus-prime/TOP-restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

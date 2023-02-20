@@ -1,0 +1,2 @@
+# node_modules folder can get really big, don’t sync contents of node_modules to github
+node_modules
