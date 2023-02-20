@@ -15,15 +15,24 @@ function makeHeader() {
 function makeMain() {
    const main = document.createElement('div');
    main.classList.add('main');
-   main.setAttribute('id', 'main');
+   main.setAttribute('id', 'main'); // for some reason just a class doesn't work in line 39 of homepage.js
 
    return main;
+}
+
+function makeFooter() {
+   const footer = document.createElement('div');
+   footer.classList.add('footer');
+   footer.textContent = 'Made with grave seriousness by Alexander Rodzyanko';
+
+   return footer;
 }
 
 function makeWebsite() {
    const content = document.getElementById('content');
    content.appendChild(makeHeader());
-   content.appendChild(makeMain())
+   content.appendChild(makeMain());
+   content.appendChild(makeFooter());
    loadHomepage();
 }
 

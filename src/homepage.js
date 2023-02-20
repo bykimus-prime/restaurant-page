@@ -15,7 +15,6 @@ function makeHomepage() {
 
    const hours = document.createElement('h3');
    hours.textContent = 'Hours';
-
    hoursSection.appendChild(hours);
    hoursSection.appendChild(createP('Monday: 10:00 - 17:00'));
    hoursSection.appendChild(createP('Tuesday: Closed'));
