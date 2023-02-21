@@ -9,7 +9,41 @@ function makeHeader() {
    restaurantName.textContent = 'The Meh Diner';
    header.appendChild(restaurantName);
 
+   header.appendChild(makeNavbar());
+
    return header;
+}
+
+function makeNavbar() {
+   const navbar = document.createElement('div');
+   navbar.classList.add('navbar');
+
+   const homeBtn = document.createElement('button');
+   homeBtn.classList.add('navbar-btn');
+   homeBtn.textContent = 'Home';
+   homeBtn.addEventListener('click', () => {
+      loadHomepage();
+   })
+
+   const menuBtn = document.createElement('button');
+   menuBtn.classList.add('navbar-btn');
+   menuBtn.textContent = 'Menu';
+   menuBtn.addEventListener('click', () => {
+      loadHomepage();
+   })
+
+   const contactBtn = document.createElement('button');
+   contactBtn.classList.add('navbar-btn');
+   contactBtn.textContent = 'Contact';
+   contactBtn.addEventListener('click', () => {
+      loadHomepage();
+   })
+
+   navbar.appendChild(homeBtn);
+   navbar.appendChild(menuBtn);
+   navbar.appendChild(contactBtn);
+
+   return navbar;
 }
 
 function makeMain() {
