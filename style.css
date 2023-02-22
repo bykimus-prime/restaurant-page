@@ -91,6 +91,17 @@ body {
    align-items: center;
 }
 
+/* main contact page */
+.contact-page {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.contact-page p {
+   padding: 10px;
+}
+
 /* footer */
 /* footer */
 
