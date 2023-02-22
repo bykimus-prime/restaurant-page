@@ -1,4 +1,5 @@
 import loadHomepage from './homepage';
+import loadContactPage from './contact';
 
 function makeHeader() {
    const header = document.createElement('div');
@@ -38,6 +39,7 @@ function makeNavbar() {
    contactBtn.textContent = 'Contact';
    contactBtn.addEventListener('click', () => {
       activateBtn(contactBtn);
+      loadContactPage();
    })
 
    navbar.appendChild(homeBtn);

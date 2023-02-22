@@ -36,6 +36,7 @@ function createP(text) {
 
 function loadHomepage() {
    const main = document.getElementById('main');
+   main.textContent = ''; // gets rid of old content in the main div
    main.appendChild(makeHomepage());
 }
 
