@@ -58,6 +58,10 @@ body {
    cursor: pointer;
 }
 
+.navbar-btn.active {
+   border-bottom: 2px solid #eee;
+}
+
 /* main */
 /* main */
 

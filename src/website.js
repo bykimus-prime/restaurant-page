@@ -22,6 +22,7 @@ function makeNavbar() {
    homeBtn.classList.add('navbar-btn');
    homeBtn.textContent = 'Home';
    homeBtn.addEventListener('click', () => {
+      activateBtn(homeBtn);
       loadHomepage();
    })
 
@@ -29,14 +30,14 @@ function makeNavbar() {
    menuBtn.classList.add('navbar-btn');
    menuBtn.textContent = 'Menu';
    menuBtn.addEventListener('click', () => {
-      loadHomepage();
+      activateBtn(menuBtn);
    })
 
    const contactBtn = document.createElement('button');
    contactBtn.classList.add('navbar-btn');
    contactBtn.textContent = 'Contact';
    contactBtn.addEventListener('click', () => {
-      loadHomepage();
+      activateBtn(contactBtn);
    })
 
    navbar.appendChild(homeBtn);
@@ -44,6 +45,17 @@ function makeNavbar() {
    navbar.appendChild(contactBtn);
 
    return navbar;
+}
+
+function activateBtn(button) {
+   const navbarBtns = document.querySelectorAll('.navbar-btn');
+
+   navbarBtns.forEach((button) => {
+      if (button !== this) {
+         button.classList.remove('active');
+      }
+   })
+   button.classList.add('active');
 }
 
 function makeMain() {
@@ -68,6 +80,9 @@ function makeWebsite() {
    content.appendChild(makeMain());
    content.appendChild(makeFooter());
    loadHomepage();
+
+   const homeBtn = document.querySelector('.navbar-btn');
+   homeBtn.classList.add('active');
 }
 
 export default makeWebsite;
