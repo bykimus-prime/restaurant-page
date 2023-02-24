@@ -51,9 +51,9 @@ function makeMenuPage() {
    desserts.appendChild(makeSectionTitle('Desserts'));
 
    desserts.appendChild(makeMenuItem(
-      'Dessert Banana, $15',
-      'We peel a banana, slop it on a plate, and drizzle it with the cheapest strawberry syrup you can find in your grocery store.',
-      ``
+      'Chocolate Chip Cookies, $10',
+      'Chocolate chip cookies but we forgot to add chocolate chips. So... just cookies.',
+      `images/cookies.jpg`
    ));
 
    return menuPage;
