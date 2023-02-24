@@ -21,8 +21,7 @@ In order to setup and work on this project on your own, you will need to:
 `git clone https://github.com/bykimus-prime/TOP-restaurant-page.git`
 
 2. Once you have cloned this project, you need to install npm and webpack. The required dependencies are:  
-`npm install webpack webpack-cli --save-dev`
-This will create the needed node_modules file in your project directory.
+`npm install webpack webpack-cli --save-dev`. This will create the needed node_modules file in your project directory.
 
 3. Distribution files can be produced using:  
 `npx webpack` or your preferred method.
@@ -39,10 +38,10 @@ Deployed on [GitHub Pages](https://pages.github.com/)
 
 ## Image Credits
 
-background - The UN, https://www.un.org/en/observances/end-food-waste-day
-birthday chicken sandwich - reddit, user SamhainOnPumpkin
-burger - reddit, user rawlingstones
-caesar salad - reddit, user S3LLOJ3LLO
-cookies - reddit, user noopthenobody
-pizza - reddit, user Call_Me_Metal
-spam wellington - reddit, user HoardingBotanist
+- background - The UN, https://www.un.org/en/observances/end-food-waste-day
+- birthday chicken sandwich - reddit, user SamhainOnPumpkin
+- burger - reddit, user rawlingstones
+- caesar salad - reddit, user S3LLOJ3LLO
+- cookies - reddit, user noopthenobody
+- pizza - reddit, user Call_Me_Metal
+- spam wellington - reddit, user HoardingBotanist
