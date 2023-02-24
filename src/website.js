@@ -1,4 +1,5 @@
 import loadHomepage from './homepage';
+import loadMenuPage from './menu';
 import loadContactPage from './contact';
 
 function makeHeader() {
@@ -32,6 +33,7 @@ function makeNavbar() {
    menuBtn.textContent = 'Menu';
    menuBtn.addEventListener('click', () => {
       activateBtn(menuBtn);
+      loadMenuPage();
    })
 
    const contactBtn = document.createElement('button');
@@ -81,7 +83,8 @@ function makeWebsite() {
    content.appendChild(makeHeader());
    content.appendChild(makeMain());
    content.appendChild(makeFooter());
-   loadHomepage();
+   // loadHomepage();
+   loadMenuPage();
 
    const homeBtn = document.querySelector('.navbar-btn');
    homeBtn.classList.add('active');

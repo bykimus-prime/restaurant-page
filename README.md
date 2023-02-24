@@ -4,3 +4,9 @@ This project aims to create a sipmle restaurant homepage. All contents of the si
 
 Image Credits:
 background - The UN, https://www.un.org/en/observances/end-food-waste-day
+banana dessert - reddit, user 16115121522
+birthday chicken sandwich - reddit, user SamhainOnPumpkin
+burger - reddit, user rawlingstones
+caesar salad - reddit, user S3LLOJ3LLO
+pizza - reddit, user Call_Me_Metal
+spam wellington - reddit, user HoardingBotanist
