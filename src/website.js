@@ -83,8 +83,7 @@ function makeWebsite() {
    content.appendChild(makeHeader());
    content.appendChild(makeMain());
    content.appendChild(makeFooter());
-   // loadHomepage();
-   loadMenuPage();
+   loadHomepage();
 
    const homeBtn = document.querySelector('.navbar-btn');
    homeBtn.classList.add('active');

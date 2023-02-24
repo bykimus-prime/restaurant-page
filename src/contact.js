@@ -21,6 +21,10 @@ function makeContactPage() {
 function loadContactPage() {
    const main = document.getElementById('main');
    main.textContent = ''; // gets rid of old content in the main div
+   main.style.maxWidth = '600px';
+   main.style.removeProperty('width');
+   main.style.removeProperty('overflow-y');
+   main.style.height = '50vh'
    main.appendChild(makeContactPage());
 }
 
