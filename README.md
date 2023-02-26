@@ -23,8 +23,8 @@ In order to setup and work on this project on your own, you will need to:
 2. Once you have cloned this project, you need to install npm and webpack. The required dependencies are:  
 `npm install webpack webpack-cli --save-dev`. This will create the needed node_modules file in your project directory.
 
-3. Distribution files can be produced using:  
-`npx webpack` or your preferred method.
+3. The package.json should be configured so that distribution files can be produced using:  
+`npm run build` or your preferred method.
 
 ### Usage
 ##### Once you are on the homepage, you have three links in the navbar
