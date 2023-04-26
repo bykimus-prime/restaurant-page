@@ -11,7 +11,7 @@ This project aims to create a sipmle restaurant homepage. All contents of the si
 - npm
 
 ## Live Demo
-[The Meh Diner](https://bykimus-prime.github.io/TOP-restaurant-page/)
+[The Meh Diner](https://bykimus-prime.github.io/restaurant-page/)
 
 ## Getting Started
 
