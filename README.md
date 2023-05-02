@@ -18,7 +18,7 @@ This project aims to create a sipmle restaurant homepage. All contents of the si
 In order to setup and work on this project on your own, you will need to:
 
 1. Clone this project:  
-`git clone https://github.com/bykimus-prime/TOP-restaurant-page.git`
+`git clone https://github.com/bykimus-prime/restaurant-page.git`
 
 2. Once you have cloned this project, you need to install npm and webpack. The required dependencies are:  
 `npm install webpack webpack-cli --save-dev`. This will create the needed node_modules file in your project directory.
